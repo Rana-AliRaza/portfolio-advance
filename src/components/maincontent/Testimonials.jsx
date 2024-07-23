@@ -73,7 +73,7 @@ const Testimonials = () => {
               showThumbs={false}
               swipeable={true}
               transitionTime={500}
-            >
+            > 
               {testimonials.map(({ id, pic, name, work, message }) => (
                 <div key={id}>
                   <div className="message p-4 bg-white shadow rounded-lg my-4">
@@ -83,8 +83,8 @@ const Testimonials = () => {
                       <RiDoubleQuotesR className='text-blue-300 inline-block font-semibold text-2xl mx-2' />
                     </p>
                   </div>
-                  <div className="pic mt-4 text-center pb-16">
-                    <img src={pic} className='rounded-full w-[90px] h-[90px]' alt={name} />
+                  <div className="pic mt-4 text-center pb-16 w-fit">
+                    <img src={pic} className='rounded-full  w-[90px] h-[90px]' alt={name} />
                     <p className="heading my-2 text-xl text-black font-semibold">{name}</p>
                     <p className="work text-gray-400">{work}</p>
                   </div>
