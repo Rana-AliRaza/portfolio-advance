@@ -6,7 +6,7 @@ const TypeWrite = () => {
     <div className="typeWrite text-white  ">
         <Typewriter
          options={{
-            strings: [ "Frontend Developer", "Free Launcer", "Web Analytics"],
+            strings: [ "Frontend Developer", "React.js Developer", "Next.js Developer"],
             autoStart: true,
             loop: true,
             deleteSpeed: 50,
